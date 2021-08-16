@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>repl.it</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>TRIVIA</h1>
+
+        <div id="button">
+            <button class="button1" 
+            onclick="Trivia('TriviaDeMusica', 'TriviaDeCine')">Trivia de Música</button>
+   
+            <button class="button2" onclick="Trivia('TriviaDeCine','TriviaDeMusica')">Trivia de Cine</button>
+        </div>
+
+    
+
+       
+
+        <div class="TriviaDeMusica" id="TriviaDeMusica">
+            <h2>🎵 Trivia de Música🎵</h2>
+            
+        <div id="prueba1">
+            <h3>¿Quiénes integran el club 27? (Personas qué fallecieron a esa edad).</h3>
+
+            <input type="radio" class="correcta" onClick="correcta()" name="opcion1" />Janis Joplin y Kurt Cobain <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion1" />Jimi Hendrix y Shannon Hoon<br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion1" />Britney spears y Whitney Houston <br />
+        </div>
+
+            <h3>¿Cuáles son géneros musicales?</h3>
+
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion2" /> Ska y novena sinfonía <br />
+            <input type="radio" class="correcta" onClick="correcta(correcta)" name="opcion2" /> Blue y Jazz <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion2" /> Metálica y R&B <br />
+
+            <h3>¿En qué año nació el Rock and Roll?</h3>
+
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion3" /> 1930 y 1950 <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion3" /> 1925 y 1945 <br />
+            <input type="radio" class="correcta" onClick="correcta()" name="opcion3" /> 1920 y 1940 <br />
+
+            <h3>¿Quién es el Rey del Pop?</h3>
+
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion4" /> Elvis Presly <br />
+            <input type="radio" class="correcta" onClick="correcta()" name="opcion4" /> Michael Jackson <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion4" /> Phil Collins <br />
+        </div>
+
+        
+        <div class="TriviaDeCine" id="TriviaDeCine">
+            <h2>🎬 Trivia de Cine 🎬</h2>
+            <h3>¿Cual fue la primera pelicula de Disney?</h3>
+
+            <input type="radio" class="correcta" onClick="correcta()" name="opcion5" /> Blanca Nieves <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion5" /> Bambi <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion5" /> Dumbo <br />
+
+            <h3>¿En que año se fundo netflix?.</h3>
+
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion6" /> 2000 <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion6" /> 1995<br />
+            <input type="radio" class="correcta" onClick="correcta()" name="opcion6" /> 1997 <br />
+
+            <h3>¿En que año filmo la primera pelicula cantinfla?</h3>
+
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion7" /> 1956 <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion7" /> 1962 <br />
+            <input type="radio" class="correcta" onClick="correcta()" name="opcion7" /> 1936 <br />
+
+            <h3>¿Cual fue el primer largometraje de Pixar?</h3>
+
+            <input type="radio" class="correcta" onClick="correcta()" name="opcion8" /> Toy Story <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion8" /> Monsters <br />
+            <input type="radio" class="incorrecta" onClick="incorrecta()" name="opcion8" /> Bichos <br />
+        </div>
+         <br>
+          <br>
+           <br>
+            <br>
+        <p class="pie">© Hecho con ♥ por Katherine y Veronica</p>
+        <script src="script.js"></script>
+    </body>
+</html>
